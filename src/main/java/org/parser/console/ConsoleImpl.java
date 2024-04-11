@@ -3,6 +3,10 @@ package org.parser.console;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * An implementation of Console interface
+ * @author Pavlo Ponomarenko
+ */
 public class ConsoleImpl implements Console {
 
     @Override

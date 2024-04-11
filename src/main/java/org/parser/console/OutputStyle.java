@@ -1,5 +1,9 @@
 package org.parser.console;
 
+/**
+ * Styles for console output formatting
+ * @author Pavlo Ponomarenko
+ */
 public enum OutputStyle {
 
     GREEN("\u001B[32m"),
