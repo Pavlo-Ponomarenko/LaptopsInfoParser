@@ -27,7 +27,7 @@ public class ParserImpl implements Parser {
     @Override
     public Map<String, Integer> formStatistic(String parameter) throws ParsingException {
         JsonFactory factory = new JsonFactory();
-        try (JsonParser parser  = factory.createParser(new File(file))) {
+        try (JsonParser parser = factory.createParser(new File(file))) {
             parser.nextToken();
             retrieveParameter(parser, parameter);
         } catch (IOException ex) {
