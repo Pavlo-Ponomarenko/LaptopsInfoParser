@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad6d97bf-7171-47b0-b5e8-bbfd03994215" name="Changes" comment=" implement basic file parsing">
+    <list default="true" id="ad6d97bf-7171-47b0-b5e8-bbfd03994215" name="Changes" comment=" implement parallel parsing">
       <change afterPath="$PROJECT_DIR$/dataset1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/parser/parsing/ParsersPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/parser/parsing/ParsersPoolImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/parser/xml/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/parser/xml/Statistics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/parser/xml/XMLBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/parser/xml/XMLBuilderImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/parser/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/parser/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/parser/parsing/ParserImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/parser/parsing/ParserImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +117,8 @@
       <workItem from="1712989253411" duration="11896000" />
       <workItem from="1713117403179" duration="4501000" />
       <workItem from="1713187976588" duration="13052000" />
-      <workItem from="1713215526129" duration="232000" />
+      <workItem from="1713215526129" duration="675000" />
+      <workItem from="1713249143333" duration="9555000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1712348453392</created>
@@ -153,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713118697744</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary=" implement parallel parsing">
+      <created>1713215943696</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1713215943696</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +185,7 @@
     <MESSAGE value="implement console interface" />
     <MESSAGE value="add comments to Console.java, ConsoleImpl.java, OutputStyle.java" />
     <MESSAGE value=" implement basic file parsing" />
-    <option name="LAST_COMMIT_MESSAGE" value=" implement basic file parsing" />
+    <MESSAGE value=" implement parallel parsing" />
+    <option name="LAST_COMMIT_MESSAGE" value=" implement parallel parsing" />
   </component>
 </project>
