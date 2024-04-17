@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad6d97bf-7171-47b0-b5e8-bbfd03994215" name="Changes" comment="rewrite getErrors method in ParsersPoolImpl">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/parser/ParserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/parser/ParsersPoolTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/correct_input/dataset1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/correct_input/dataset2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/correct_input/dataset3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/empty.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/wrong_input/dataset1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/wrong_input/dataset2.json" afterDir="false" />
+    <list default="true" id="ad6d97bf-7171-47b0-b5e8-bbfd03994215" name="Changes" comment="create junit tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/parser/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/parser/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/parser/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/parser/console/ConsoleImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/parser/console/ConsoleImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +72,7 @@
       <recent name="C:\Users\react\Desktop\JavaProject\LaptopsInfoParser\src\test\resources\correct_input" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ParserTest">
+  <component name="RunManager" selected="JAR Application.Unnamed">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.parser.App" />
       <module name="LaptopsInfoParser" />
@@ -171,7 +162,7 @@
       <workItem from="1713336732215" duration="9052000" />
       <workItem from="1713347392675" duration="743000" />
       <workItem from="1713348231744" duration="1933000" />
-      <workItem from="1713369419735" duration="7273000" />
+      <workItem from="1713369419735" duration="12132000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1712348453392</created>
@@ -229,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713374525527</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="create junit tests">
+      <created>1713378487100</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1713378487100</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,6 +253,7 @@
     <MESSAGE value=" implement parallel parsing" />
     <MESSAGE value=" implement xml file creation" />
     <MESSAGE value="rewrite getErrors method in ParsersPoolImpl" />
-    <option name="LAST_COMMIT_MESSAGE" value="rewrite getErrors method in ParsersPoolImpl" />
+    <MESSAGE value="create junit tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="create junit tests" />
   </component>
 </project>
