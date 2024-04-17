@@ -1,6 +1,7 @@
 package org.parser.parsing;
 
 import java.io.File;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -60,6 +61,6 @@ public class ParsersPoolImpl implements ParsersPool {
 
     @Override
     public List<ParsingException> getErrors() {
-        return errors;
+        return new ArrayList<>(errors);
     }
 }
