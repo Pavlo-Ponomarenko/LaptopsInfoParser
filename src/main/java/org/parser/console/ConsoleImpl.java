@@ -1,5 +1,7 @@
 package org.parser.console;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
@@ -29,11 +31,14 @@ public class ConsoleImpl implements Console {
     @Override
     public void printStatistic(Map<String, Integer> statistic, OutputStyle... styles) {
         StringBuilder builder = getBuilder(styles);
-        for (String parameter : statistic.keySet()) {
+        List<String> items = statistic.entrySet().stream().sorted(Map.Entry.comparingByValue()).map(Map.Entry::getKey).toList();
+        List<String> paramTypes = new ArrayList<>(items);
+        Collections.reverse(paramTypes);
+        for (String paramType : paramTypes) {
             builder.append(" | ")
-                    .append(parameter)
+                    .append(paramType)
                     .append(" -> ")
-                    .append(statistic.get(parameter))
+                    .append(statistic.get(paramType))
                     .append("\n");
         }
         builder.append(OutputStyle.ANSI_RESET);
